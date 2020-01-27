@@ -5,4 +5,10 @@
   - supervised 
   - semi-supervised 
   - unsupervised 
-  - reinforcement 
+  - reinforcement
+  
+### Forward propagation
+  - Perception: x with weights 
+  - fullay connected neural network 
+  - Markov Chain
+  - 
