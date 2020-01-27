@@ -11,4 +11,8 @@
   - Perception: x with weights 
   - fullay connected neural network 
   - Markov Chain
-  - 
+  - activiation function
+    - ReU: 
+    - Sigmoid: 
+    - softmax： 
+  - loss functions
