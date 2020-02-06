@@ -20,4 +20,6 @@
   - The null space of a matrix A is the set Nul A of all solutions of the homogeneous 
     equation Ax D 0.
   - A basis for a subspace H of Rn is a linearly independent set in H that spans H.
-  - 
+### Diagnizable
+  - A = PBP^(-1) 
+  - A^(n) = PD(n)P(-1) 
