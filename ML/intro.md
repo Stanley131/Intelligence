@@ -34,4 +34,7 @@
     - the arrival of an event is independt of the event. 
     - e^(-u) * mean ^x / x!
     - mean = variance 
-    
+### Ginie index vs Entropy 
+  - Decision tree algorithms use information gain to split a node. Gini index or entropy is the
+    criterion for calculating information gain. 
+  - 
