@@ -14,8 +14,20 @@
      Suppose we have a mapping 𝜑:ℝ𝑛→ℝ𝑚 that brings our vectors in ℝ𝑛 to some feature space ℝ𝑚. Then 
      the dot product of 𝐱 and 𝐲 in this space is 𝜑(𝐱)𝑇𝜑(𝐲). A kernel is a function 𝑘 that corresponds to this
      dot product, i.e. 𝑘(𝐱,𝐲)=𝜑(𝐱)𝑇𝜑(𝐲).
-### Definition
+### Definition of a kernel function 
   - symmetry: 𝑘(𝑥,𝑦)=𝑘(𝑦,𝑥)
   - positive semi-definiteness.
     
   
+### Gussian Kernel 
+  - Another interesting kernel examples is Gaussian kernel. Given two vectors, the similarity will diminish with
+    the radius of 𝜎. The distance between two objects is "reweighted" by this radius parameter. 
+    
+### Conveity 
+  - f(a * x1 + (1 - a) * x2) <= a f(x1) + (1-a)f(x2) 
+  - if second derivative is greater than 0 
+  - Function of d variables 
+    - value: number 
+    - Derivative: d-dimensional vector 
+    - Second derovative d x d matrix 
+    - Hessian 
