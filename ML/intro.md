@@ -37,4 +37,8 @@
 ### Ginie index vs Entropy 
   - Decision tree algorithms use information gain to split a node. Gini index or entropy is the
     criterion for calculating information gain. 
-  - 
+
+### parametric vs non
+  - The term “non-parametric” might sound a bit confusing at first: non-parametric does not mean that they have NO parameters! On the contrary, non-parametric models (can) become more and more complex with an increasing amount of data.
+
+So, in a parametric model, we have a finite number of parameters, and in nonparametric models, the number of parameters is (potentially) infinite. Or in other words, in nonparametric models, the complexity of the model grows with the number of training data; in parametric models, we have a fixed number of parameters (or a fixed structure if you will).
