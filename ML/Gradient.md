@@ -127,8 +127,32 @@
     increased the performance of RNNs on a number of tasks
 
 ### Adaptive Gradient
-  - 
+  - Above methods adapt updates to the slope of our error function and speed up SGD in turn. 
+   Adagrad adapts updates to each individual parameter to perform larger or smaller updates 
+   depending on their importance.
+  - Ad: One of Adagrad’s main benefits is that it eliminates the need to manually tune the learning 
+   rate. Most implementations use a default value of 0.01 and leave it at that.
+  - Disad: Adagrad’s main weakness is its accumulation of the squared gradients in the denominator:
+  Since every added term is positive, the accumulated sum keeps growing during training. This in turn
+  causes the learning rate to shrink and eventually become infinitesimally small, at which point the
+   valgorithm is no longer able to acquire additional knowledge.
+
+### Adadelta
+  - Adadelta [6] is an extension of Adagrad that seeks to reduce its aggressive, monotonically 
+  decreasing learning rate. Instead of accumulating all past squared gradients, Adadelta restricts
+  the window of accumulated past gradients to some fixed size ww.
   
+### RMSProp
+  - RMSprop and Adadelta have both been developed independently around the same time stemming from
+  the need to resolve Adagrad’s radically diminishing learning rates. RMSprop divides the learning
+  rate by an exponentially decaying average of squared gradients.
+
+### Adaptive Momentum (ADAM)
+  - Adaptive Moment Estimation is most popular today.
+  - ADAM computes adaptive learning rates for each parameter. In addition to storing an 
+   exponentially decaying average of past squared gradients vt like Adadelta and RMSprop, 
+   Adam also keeps an exponentially decaying average of past gradients mt, similar to momentum.
+   
   
   
   
