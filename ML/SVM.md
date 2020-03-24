@@ -40,5 +40,9 @@
     - which perceptron is better when there are multuple percetrons?
     - which perceptron algo return? Find a better generalized data algorithm. 
     - perceptron cannot guarantee the best decision boundry but a legitimate one 
-### 
+    - SVM will have the bias term unlike the perceptrons. 
+    
+### 7. SVM formmulation 
+1. What does the distance between two parallel lines mean?
+  
     
