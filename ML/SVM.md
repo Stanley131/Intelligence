@@ -44,5 +44,12 @@
     
 ### 7. SVM formmulation 
 1. What does the distance between two parallel lines mean?
-  
-    
+2. 
+
+
+
+
+
+
+
+
