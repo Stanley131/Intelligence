@@ -44,10 +44,17 @@
     
 ### 7. SVM formmulation 
 1. What does the distance between two parallel lines mean?
-2. 
+    - wx - b >= +1 if y = +1 
+    - wx - b <= =1 if y = -1  
+    - why not radius distance?
+    
+2. Math optimizatiom problem 
+    - maximize 2/|w|
+    - minimize |w| => square this to be make it easier to optimize 
+    - sunch that y(xw - b) >= 1 
+    - constrained optimization problem 
 
-
-
+ 
 
 
 
