@@ -53,12 +53,22 @@
     - minimize |w| => square this to be make it easier to optimize 
     - sunch that y(xw - b) >= 1 
     - constrained optimization problem 
-    - assumption is that no noise 
-3. How to generalize this problem?
-    - 
- 
-
-
-
-
-
+    - assumption is that no noise. 
+   
+3. How to generalize this problem(non-separable case)?
+    - introduce to slack for the mis-classified points, and minimize the slack. 
+    - you don't have to do any separate preporcessing
+    - all variables so far: w, b, slack 
+    - Also known as SVM standard(primal) from with slack: 
+    - a primal form means only one variable. 
+    - Introduce the slace: y(xw - b) >= 1 - theta 
+    - what does it mean for any slack? it means any solutions 
+    - minimize the |w|^2/2 + C sum of (theta)
+    - why use linear slack? it depends on the problem, ut linear is easier 
+4. How to solve it?
+    - Cannot simply take the derivative w, b, theta and examine the stationary points 
+    - Why? cuz Gradient not zero at the function minima respecting the constraints. 
+    
+    
+    
+    
