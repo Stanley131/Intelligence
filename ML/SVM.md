@@ -53,7 +53,9 @@
     - minimize |w| => square this to be make it easier to optimize 
     - sunch that y(xw - b) >= 1 
     - constrained optimization problem 
-
+    - assumption is that no noise 
+3. How to generalize this problem?
+    - 
  
 
 
