@@ -68,7 +68,29 @@
 4. How to solve it?
     - Cannot simply take the derivative w, b, theta and examine the stationary points 
     - Why? cuz Gradient not zero at the function minima respecting the constraints. 
-    
+    - The dimentsion is n+ d + 1. 
+5. Detour : Constrained Optimization 
+    - minize f(x)
+    - Feasible problem: assume there is one x such that it satisfying the problem 
+    - projection methods: start with a feasible solutions x0, and find x1 that is 
+      slightly lower objective value, if xj violates the constraints, project back
+      to the contraints.
+    - Penalty methods 
+    - The Lagrange Penalty Method: 
+        L(x, lambda)  = f(x)  + sum  
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
     
     
     
